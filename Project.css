@@ -1,0 +1,76 @@
+body {
+    background: url("hotel.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.signupbox {
+    background: rgba(44, 62, 80, 0.7);
+    padding: 40px;
+    width: 250px;
+    margin-top: 90px;
+    margin-left: 180px;
+    margin: 0 auto;
+}
+
+form {
+    width: 240px;
+    text-align: center;
+    margin-top: -10;
+    /* this section makes the texts inside the box move to the center */
+}
+
+input {
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid;
+    border-color: white;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 10px 0;
+    /* padding gives space from top to bottom of each input slots */
+    transition: border 0.5s;
+    outline: none;
+    height: 35px;
+    color: white;
+}
+
+button {
+    border: none;
+    width: 190px;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 25px;
+    /* border radius is to change the button's shape to have a curved round edge */
+    cursor: pointer;
+}
+
+button:hover {
+    /* do not put space between the button,colon and hover or else it wont work */
+    background: black;
+    color: white;
+}
+
+.signupbox h2 {
+    color: gold;
+}
+
+a {
+    color: gold;
+}
+
+a:hover {
+    color: cyan;
+}
+
+.signIn {
+    color: white;
+}
+
+::placeholder {
+    color: whitesmoke;
+    opacity: 0.6;
+}
